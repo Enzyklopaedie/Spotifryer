@@ -15,6 +15,8 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "SPOTIFY_CLIENT_ID", project.property("SPOTIFY_CLIENT_ID").toString()
+        )
     }
 
     buildTypes {
@@ -25,6 +27,7 @@ android {
                 "proguard-rules.pro"
             )
         }
+        android.buildFeatures.buildConfig = true
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
