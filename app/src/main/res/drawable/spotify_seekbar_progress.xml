@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- This is the background of the progress bar (the full track) -->
+    <item
+        android:id="@android:id/background"
+        android:gravity="center_vertical">
+        <shape android:shape="rectangle">
+            <corners android:radius="2dp" />
+            <solid android:color="@color/spotify_progress_background" />
+            <size android:height="4dp" /> <!-- Thinner gray background -->
+        </shape>
+    </item>
+
+    <!-- This is the progress part of the bar (what fills up) -->
+    <item
+        android:id="@android:id/progress"
+        android:gravity="center_vertical">
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:radius="3dp" />
+                <solid android:color="@color/spotify_green" />
+                <size android:height="6dp" /> <!-- Thicker green progress -->
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

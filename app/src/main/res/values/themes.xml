@@ -1,5 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+    <!-- Add this entire style block -->
+    <style name="Widget.App.SeekBar.Spotify" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressDrawable">@drawable/spotify_seekbar_progress</item>
+        <item name="android:thumb">@drawable/spotify_seekbar_thumb</item>
+    </style>
+
     <style name="Base.Theme.Spotifryer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
