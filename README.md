@@ -79,4 +79,4 @@ This is a great starting point, but the journey isn't over! Here's what's next:
 
 ✨AI-generated file
 
-*This app at in its early state of development, so some things might not work properly*
+*This app in in its early state of development, so some things might not work properly*
