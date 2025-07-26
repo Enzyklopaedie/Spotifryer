@@ -77,4 +77,5 @@ This is a great starting point, but the journey isn't over! Here's what's next:
 *   **Display Album Art:** Use the `ImagesApi` to fetch and display the real album cover.
 *   **Live Progress Bar:** Animate our custom progress bar to show the song's real-time playback position.
 
+                                                                                                                                                                                 ✨AI-generated file
 *This app at in its early state of development, so some things might not work properly*
