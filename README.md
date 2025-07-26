@@ -63,7 +63,7 @@ You're ready to go! The project is configured to read your credentials and conne
 
 *   Open the project in Android Studio.
 *   Let Gradle sync all the project dependencies.
-*   Select your Android Emulator (API 21+) from the device dropdown menu.
+*   Select your Android Emulator (API 17+) from the device dropdown menu.
 *   Click the **Run 'app'** button (the green triangle ▶️).
 
 The first time you run the app, it will ask for your permission to control Spotify. After you agree, it should connect automatically every time!
@@ -76,6 +76,7 @@ This is a great starting point, but the journey isn't over! Here's what's next:
 *   **Dynamic Button State:** Change the "PLAY" icon/text to "PAUSE" when a song is playing.
 *   **Display Album Art:** Use the `ImagesApi` to fetch and display the real album cover.
 *   **Live Progress Bar:** Animate our custom progress bar to show the song's real-time playback position.
+*   **Meet Spotify's official API requirements**: Fully support API level 17 instead of the offical API level minimum of 21 
 
 ✨AI-generated file
 
